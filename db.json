@@ -1,0 +1,22 @@
+{
+  "favouriteMovies": [
+    {
+      "movieTitle": "Batman v Superman: Dawn of Justice",
+      "dateReleased": "2016",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "id": "tt2975590"
+    },
+    {
+      "movieTitle": "Batman",
+      "dateReleased": "1989",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg",
+      "id": "tt0096895"
+    },
+    {
+      "movieTitle": "Batman Forever",
+      "dateReleased": "1995",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDdjYmFiYWEtYzBhZS00YTZkLWFlODgtY2I5MDE0NzZmMDljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "id": "tt0112462"
+    }
+  ]
+}

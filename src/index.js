@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MovieContextProvider } from './contexts/MovieContext'
+import {FavouritesContextProvider} from './contexts/FavouritesContext'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MovieContextProvider>
+      <FavouritesContextProvider>
+        <App />
+      </FavouritesContextProvider>
+    </MovieContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

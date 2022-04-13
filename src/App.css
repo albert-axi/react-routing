@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+div#movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 150px;
+  display: grid;
+  justify-items: center;
+}
